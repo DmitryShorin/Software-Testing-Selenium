@@ -1,1 +1,1 @@
-# Software-Testing-Selenium Домашние задания
+# Software-Testing-Selenium
