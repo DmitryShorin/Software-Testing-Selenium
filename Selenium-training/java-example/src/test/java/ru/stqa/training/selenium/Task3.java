@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TestLecture2Task3 {
+public class Task3 {
     // Лекция 2, Задание 3. Сделайте сценарий логина
 
     // Инициализируем и настраиваем драйвер
