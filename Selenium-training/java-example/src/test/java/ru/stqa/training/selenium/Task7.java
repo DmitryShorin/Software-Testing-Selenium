@@ -2,8 +2,11 @@ package ru.stqa.training.selenium;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
+
+import static java.lang.String.format;
 
 public class Task7 extends TestBase {
     /* Лекция 4, Задание 7:
@@ -11,6 +14,12 @@ public class Task7 extends TestBase {
     1) входит в панель администратора http://localhost/litecart/admin
     2) прокликивает последовательно все пункты меню слева, включая вложенные пункты
     3) для каждой страницы проверяет наличие заголовка (то есть элемента с тегом h1) */
+
+    public void printNoTitle(WebDriver webDriver) {
+        // Выводим страницы без заголовка
+        if (webDriver.getTitle().equals(""))
+            System.out.println((format("Найдена страница без заголовка: %s", webDriver.getCurrentUrl())));
+    }
 
     @Test
     public void AdminMenuClick() {

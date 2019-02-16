@@ -15,12 +15,6 @@ public class TestBase {
     public WebDriver webDriver;
     public WebDriverWait webDriverWait;
 
-    public void printNoTitle(WebDriver webDriver) {
-        // Выводим страницы без заголовка
-        if (webDriver.getTitle().equals(""))
-            System.out.println((format("Найдена страница без заголовка: %s", webDriver.getCurrentUrl())));
-    }
-
     @Before
     public void start() {
         webDriver = new ChromeDriver();
