@@ -30,6 +30,7 @@ public class Task10 extends TestBase {
         homePageItem.setCompaign_price_size(itemsProperty.get(0).findElement(By.cssSelector(".campaign-price")).getCssValue("font-size"));
         homePageItem.setCompaign_price_bold(itemsProperty.get(0).findElement(By.cssSelector(".campaign-price")).getCssValue("font-weight"));
         homePageItem.setCompaign_price_red(itemsProperty.get(0).findElement(By.cssSelector(".campaign-price")).getCssValue("color"));
+        //homePageItem.print();
         items.add(homePageItem);
         // Переходим на страницу товара и получаем его свойства
         itemsProperty.get(0).click();
@@ -43,6 +44,7 @@ public class Task10 extends TestBase {
         PageItem.setCompaign_price_size(webDriver.findElement(By.cssSelector(".information .campaign-price")).getCssValue("font-size"));
         PageItem.setCompaign_price_bold(webDriver.findElement(By.cssSelector(".information .campaign-price")).getCssValue("font-weight"));
         PageItem.setCompaign_price_red(webDriver.findElement(By.cssSelector(".information .campaign-price")).getCssValue("color"));
+        homePageItem.print();
         items.add(PageItem);
         // Сравниваем свойства товаров
         Assert.assertTrue("Названия товаров не совпадают", homePageItem.getTitle().equals(PageItem.getTitle()));
@@ -126,7 +128,10 @@ public class Task10 extends TestBase {
 
         public void setCompaign_price_bold(String cssProperty) {
             // значение 700 эквивалентно bold
-            if (!(cssProperty == null) && cssProperty.equals("700"))
+            if (cssProperty == null || cssProperty.equals(""))
+                    return;
+            int boldValue = Integer.parseInt(cssProperty);
+            if (boldValue >= 700)
                 compaign_price_bold = true;
         }
 
