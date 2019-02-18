@@ -14,18 +14,14 @@ public class Task8 extends TestBase {
     public void CheckSticker() {
         webDriver.navigate().to("http://localhost/litecart/en/");
         // Получаем список товаров
-        List<WebElement> items = webDriver.findElements(By.cssSelector("[class='product column shadow hover-light']"));
-        // Проверяем наличие у товара только одного стикера
+        List<WebElement> items = webDriver.findElements(By.cssSelector("div.content .link"));
+        // Проверяем кол-во стикеров у товара
         for (int i = 0; i < items.size(); i++) {
-            //WebElement item = items.get(i).findElement(By.cssSelector("[class^=sticker]"));
-            //System.out.println(item.getAttribute("class"));
             List<WebElement> stickers = items.get(i).findElements(By.cssSelector("[class^=sticker]"));
-            //System.out.println(stickers);
-            //for (WebElement element : stickers)
-                //System.out.println("элемент " + (i+1) + " " + element.getAttribute("class"));
             if (stickers.size() != 1)
-                Assert.fail("Найден товар с несколькими стикерами");
-            //Assert.assertEquals(stickers.size(), 1);
+                Assert.fail("Найден товар с несколькими стикерами = " + items.get(i).getAttribute("title"));
+            else if (stickers.size() < 1)
+                Assert.fail("Найден товар без стикера" + items.get(i).getAttribute("title"));
         }
     }
 }
