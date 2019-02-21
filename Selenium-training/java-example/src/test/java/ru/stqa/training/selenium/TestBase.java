@@ -24,10 +24,10 @@ public class TestBase {
 
     @Before
     public void start() {
-        //webDriver = new ChromeDriver();
+        webDriver = new ChromeDriver();
 
-        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
-        webDriver = new FirefoxDriver(options);
+        //FirefoxOptions options = new FirefoxOptions().setLegacy(true);
+        //webDriver = new FirefoxDriver(options);
 
         //webDriver = new EdgeDriver();
         webDriverWait = new WebDriverWait(webDriver, 10);
