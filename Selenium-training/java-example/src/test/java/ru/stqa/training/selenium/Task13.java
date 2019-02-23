@@ -16,7 +16,7 @@ public class Task13 extends TestBase{
         webDriver.navigate().to("http://litecart.stqa.ru/en/");
         for (int i = 0; i < 3; i++) {
             webDriver.findElements(By.cssSelector(".product")).get(0).click();
-            // проверяем неоходимость ввода размера
+            // проверяем необходимость ввода размера
             if (isElementPresent(webDriver, By.name("options[Size]"))) {
                 new Select(webDriver.findElement(By.name("options[Size]"))).selectByValue("Small");
             }
