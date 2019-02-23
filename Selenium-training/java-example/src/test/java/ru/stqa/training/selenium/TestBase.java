@@ -2,6 +2,7 @@ package ru.stqa.training.selenium;
 
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -22,6 +23,10 @@ public class TestBase {
         webDriver.navigate().to("http://localhost/litecart/en/");
     }
 
+    public boolean isElementPresent(WebDriver driver, By locator) {
+        return driver.findElements(locator).size() > 0;
+    }
+
     @Before
     public void start() {
         webDriver = new ChromeDriver();
@@ -31,6 +36,7 @@ public class TestBase {
 
         //webDriver = new EdgeDriver();
         webDriverWait = new WebDriverWait(webDriver, 10);
+        //webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @After
