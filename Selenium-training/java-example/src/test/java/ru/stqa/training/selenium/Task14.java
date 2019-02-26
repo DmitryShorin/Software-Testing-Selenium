@@ -36,7 +36,7 @@ public class Task14 extends TestBase {
         for (WebElement link : links) {
             String mainWindow = webDriver.getWindowHandle();
             Set<String> oldWindows = webDriver.getWindowHandles();
-            links.get(0).click();
+            link.click();
             Set<String> newWindows = webDriver.getWindowHandles();
             String newWindow = webDriverWait.until(thereIsWindowOtherThan(oldWindows));
             webDriver.switchTo().window(newWindow);
