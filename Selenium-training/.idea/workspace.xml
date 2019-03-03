@@ -86,30 +86,31 @@
     <session id="698502432">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="63" />
+          <entry key="java" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="16028" />
+          <entry key="java" value="16433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16028" />
+          <entry key="JAVA" value="16433" />
         </counts>
       </usages-collector>
     </session>
@@ -125,27 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task14.java">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            <state relative-caret-position="143">
+              <caret line="21" column="114" selection-start-line="21" selection-start-column="114" selection-end-line="21" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -488,6 +473,7 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task13.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task14.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task15.java" />
       </list>
     </option>
   </component>
@@ -503,6 +489,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -548,16 +535,6 @@
             </path>
             <path>
               <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium-training" type="462c0819:PsiDirectoryNode" />
-              <item name="java-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Task11.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -577,6 +554,14 @@
               <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
               <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
               <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
@@ -621,14 +606,6 @@
               <item name="internal" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
               <item name="statements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium-training" type="b2602c69:ProjectViewProjectNode" />
@@ -695,11 +672,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551210634281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551629059112" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -718,23 +694,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Task14">
-    <configuration name="Task11.UserRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-example_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.Task11" />
-      <option name="METHOD_NAME" value="UserRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task15.Test">
     <configuration name="Task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
@@ -777,7 +737,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
         <pattern>
@@ -786,25 +746,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.Task8" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.Task15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task15.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-example_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.Task15" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Task8" />
-      <item itemvalue="JUnit.Task11.UserRegistration" />
       <item itemvalue="JUnit.Task12" />
       <item itemvalue="JUnit.Task13" />
       <item itemvalue="JUnit.Task14" />
+      <item itemvalue="JUnit.Task15" />
+      <item itemvalue="JUnit.Task15.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task15.Test" />
+        <item itemvalue="JUnit.Task15" />
         <item itemvalue="JUnit.Task14" />
         <item itemvalue="JUnit.Task13" />
         <item itemvalue="JUnit.Task12" />
-        <item itemvalue="JUnit.Task11.UserRegistration" />
-        <item itemvalue="JUnit.Task8" />
       </list>
     </recent_temporary>
   </component>
@@ -822,42 +798,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Task14 - 2019.02.26 at 21h 24m 21s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 37m 52s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 21h 25m 00s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 38m 16s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 21h 51m 21s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 39m 46s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 21h 52m 15s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 44m 28s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 32m 58s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 48m 05s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 34m 03s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 55m 24s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 34m 50s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 56m 22s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 42m 15s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 56m 44s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 46m 37s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 57m 15s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task14 - 2019.02.26 at 22h 48m 56s.xml">
-      <configuration name="Task14" configurationId="JUnit" />
+    <history-entry file="Task15_Test - 2019.03.03 at 18h 58m 13s.xml">
+      <configuration name="Task15.Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27611336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -904,20 +880,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task5.java" />
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task42.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,9 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,9 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,9 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,16 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1040,9 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" selection-start-line="18" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1080,24 +1009,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="77" />
+        <state relative-caret-position="289">
+          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="340">
+          <caret line="27" column="87" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/Task15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="21" column="114" selection-start-line="21" selection-start-column="114" selection-end-line="21" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
