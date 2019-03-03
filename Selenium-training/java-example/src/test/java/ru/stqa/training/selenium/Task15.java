@@ -15,7 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Task15 {
-
+    // Грид
     @Test
     public void Test() throws MalformedURLException {
         final URL LOCALHOST = new URL("http://localhost:4444/wd/hub");
