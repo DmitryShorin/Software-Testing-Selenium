@@ -14,4 +14,8 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    
+    testCompile('net.lightbody.bmp:browsermob-core:2.1.5') {
+        exclude module: 'selenium'
+    }
 }
