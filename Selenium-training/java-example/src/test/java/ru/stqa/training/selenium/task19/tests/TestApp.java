@@ -2,9 +2,9 @@ package ru.stqa.training.selenium.task19.tests;
 
 import org.junit.Test;
 
-public class TestCart extends TestBase {
+public class TestApp extends TestBase {
     @Test
-    public void TestApp() {
+    public void TestCart() {
         app.openHomePage();
 
         for (int i = 0; i < 3; i++) {
